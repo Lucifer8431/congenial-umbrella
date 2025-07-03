@@ -82,7 +82,8 @@ export const FEATURED_PRODUCTS = [
     rating: 4.8,
     reviewCount: 124,
     featured: true,
-    trending: true,
+    trending: true,,
+    new: false
   },
   {
     id: '2',
@@ -103,7 +104,8 @@ export const FEATURED_PRODUCTS = [
     category: 'Lifestyle',
     rating: 4.7,
     reviewCount: 203,
-    featured: true,
+    featured: true,,
+    new: false
   },
   {
     id: '4',
@@ -113,7 +115,8 @@ export const FEATURED_PRODUCTS = [
     category: 'Mindfulness',
     rating: 4.6,
     reviewCount: 156,
-    featured: true,
+    featured: true,,
+    new: false
   },
 ];
 
