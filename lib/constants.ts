@@ -1,51 +1,25 @@
-export const FEATURED_PRODUCTS = [
+// Example placeholder data — replace with your actual content
+
+export const BLOG_POSTS = [
   {
     id: '1',
-    name: 'Zen Meditation Cushion',
-    price: 89.99,
-    originalPrice: 129.99,
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=2',
-    category: 'Wellness',
-    rating: 4.8,
-    reviewCount: 124,
-    featured: true,
-    trending: true,
-    new: false,
+    title: 'Sustainable Living 101',
+    excerpt: 'Learn the basics of sustainable eCommerce...',
+    date: '2025-07-03',
   },
-  {
-    id: '2',
-    name: 'Aromatherapy Diffuser',
-    price: 159.99,
-    image: 'https://images.pexels.com/photos/6186811/pexels-photo-6186811.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=2',
-    category: 'Wellness',
-    rating: 4.9,
-    reviewCount: 89,
-    featured: true,
-    trending: false, // ✅ added
-    new: true,
-  },
-  {
-    id: '3',
-    name: 'Organic Tea Collection',
-    price: 49.99,
-    image: 'https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=2',
-    category: 'Lifestyle',
-    rating: 4.7,
-    reviewCount: 203,
-    featured: true,
-    trending: false, // ✅ added
-    new: false,
-  },
-  {
-    id: '4',
-    name: 'Mindfulness Journal',
-    price: 34.99,
-    image: 'https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&dpr=2',
-    category: 'Mindfulness',
-    rating: 4.6,
-    reviewCount: 156,
-    featured: true,
-    trending: false, // ✅ added
-    new: false,
-  },
+  // Add more blog posts
 ];
+
+export const TESTIMONIALS = [
+  {
+    name: 'John Doe',
+    message: 'Zenvia has completely changed how I shop!',
+  },
+  // Add more testimonials
+];
+
+export const SORT_OPTIONS = ['Price: Low to High', 'Price: High to Low', 'Newest'];
+
+export const CATEGORIES = ['Clothing', 'Wellness', 'Accessories'];
+
+export const COLORS = ['Red', 'Blue', 'Green', 'Black'];
