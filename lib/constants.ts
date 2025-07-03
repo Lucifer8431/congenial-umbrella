@@ -21,8 +21,8 @@ export const FEATURED_PRODUCTS = [
     rating: 4.9,
     reviewCount: 89,
     featured: true,
+    trending: false, // ✅ added
     new: true,
-    trending: false,
   },
   {
     id: '3',
@@ -33,8 +33,8 @@ export const FEATURED_PRODUCTS = [
     rating: 4.7,
     reviewCount: 203,
     featured: true,
+    trending: false, // ✅ added
     new: false,
-    trending: true,
   },
   {
     id: '4',
@@ -45,7 +45,7 @@ export const FEATURED_PRODUCTS = [
     rating: 4.6,
     reviewCount: 156,
     featured: true,
+    trending: false, // ✅ added
     new: false,
-    trending: false,
   },
 ];
