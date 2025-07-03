@@ -58,7 +58,7 @@ export const TESTIMONIALS = [
     name: 'Michael Chen',
     avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
     rating: 5,
-    comment: 'Amazing customer service and the fastest shipping I\'ve ever experienced. Every product feels premium.',
+    comment: "Amazing customer service and the fastest shipping I've ever experienced. Every product feels premium.",
     product: 'Aromatherapy Starter Kit',
   },
   {
@@ -82,8 +82,8 @@ export const FEATURED_PRODUCTS = [
     rating: 4.8,
     reviewCount: 124,
     featured: true,
-    trending: true,,
-    new: false
+    trending: true,
+    new: false,
   },
   {
     id: '2',
@@ -104,8 +104,8 @@ export const FEATURED_PRODUCTS = [
     category: 'Lifestyle',
     rating: 4.7,
     reviewCount: 203,
-    featured: true,,
-    new: false
+    featured: true,
+    new: false,
   },
   {
     id: '4',
@@ -115,15 +115,15 @@ export const FEATURED_PRODUCTS = [
     category: 'Mindfulness',
     rating: 4.6,
     reviewCount: 156,
-    featured: true,,
-    new: false
+    featured: true,
+    new: false,
   },
 ];
 
 export const BLOG_POSTS = [
   {
     id: '1',
-    title: 'The Art of Mindful Living: A Beginner\'s Guide',
+    title: "The Art of Mindful Living: A Beginner's Guide",
     excerpt: 'Discover how to incorporate mindfulness into your daily routine with simple, practical techniques.',
     image: 'https://images.pexels.com/photos/3822905/pexels-photo-3822905.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&dpr=2',
     category: 'Mindfulness',
